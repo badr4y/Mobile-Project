@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mobile Project</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="log_in_to_your_account">Log In</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="login_button">Login</string>
+    <string name="you_don_t_have_an_account">You don\'t have an account ? Sign Up instead !</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
