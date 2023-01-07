@@ -7,4 +7,10 @@
     <string name="login_button">Login</string>
     <string name="you_don_t_have_an_account">You don\'t have an account ? Sign Up instead !</string>
     <string name="sign_up">Sign Up</string>
+    <string name="profile">Profile</string>
+    <string name="jamal">Jamal</string>
+    <string name="denji">denji</string>
+    <string name="c_rien_c_la_rue">C rien c la rue</string>
+    <string name="rabat">Rabat</string>
+    <string name="memories">Memories</string>
 </resources>
