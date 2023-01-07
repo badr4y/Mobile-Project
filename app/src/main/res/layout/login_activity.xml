@@ -114,6 +114,8 @@
         android:textColor="#88CCFF"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/login_button"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,OnClick"
+        android:clickable="true"
+        android:onClick="SignUp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
