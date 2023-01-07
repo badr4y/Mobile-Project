@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainfeedActivity">
+    tools:context=".MainfeedActivity"
+    android:background="#2c2c2c">
 
     <include
         android:id="@+id/main_toolbar"
@@ -40,7 +41,135 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/toolbar2nd"
-        tools:layout_editor_absoluteX="0dp">
+        tools:layout_editor_absoluteX="0dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:id="@+id/self_layout">
+            <ImageView
+                android:id="@+id/self_post"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:src="@drawable/profile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+            <ImageView
+                android:id="@+id/self_post2"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:src="@drawable/profile"
+                app:layout_constraintStart_toStartOf="@id/self_post"
+                tools:ignore="MissingConstraints" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="130dp"
+                android:layout_marginEnd="130dp"
+                android:layout_marginBottom="437dp"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                app:layout_constraintTop_toBottomOf="@id/self_post"
+                tools:ignore="MissingConstraints,NotSibling" />
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/denji"
+                app:layout_constraintLeft_toRightOf="@id/profile_image"
+                app:layout_constraintTop_toTopOf="@id/profile_image"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                tools:ignore="MissingConstraints">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3h late"
+                android:textColor="@color/light_grey"
+                app:layout_constraintTop_toBottomOf="@id/username"
+                app:layout_constraintLeft_toRightOf="@id/profile_image"
+                android:paddingLeft="10dp"/>
+            <ImageView
+                android:id="@+id/post"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:src="@drawable/profile"
+                app:layout_constraintTop_toBottomOf="@id/profile_image"
+                tools:ignore="MissingConstraints" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile"
+                app:layout_constraintTop_toTopOf="@id/post"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                tools:ignore="MissingConstraints" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="130dp"
+                android:layout_marginEnd="130dp"
+                android:layout_marginBottom="437dp"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                app:layout_constraintTop_toBottomOf="@id/post"
+                tools:ignore="MissingConstraints,NotSibling" />
+            <TextView
+                android:id="@+id/username2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/denji"
+                app:layout_constraintLeft_toRightOf="@id/profile_image2"
+                app:layout_constraintTop_toTopOf="@id/profile_image2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                tools:ignore="MissingConstraints">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3h late"
+                android:textColor="@color/light_grey"
+                app:layout_constraintTop_toBottomOf="@id/username2"
+                app:layout_constraintLeft_toRightOf="@id/profile_image2"
+                android:paddingLeft="10dp"/>
+            <ImageView
+                android:id="@+id/post2"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:src="@drawable/profile"
+                app:layout_constraintTop_toBottomOf="@id/profile_image2"
+                tools:ignore="MissingConstraints" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile"
+                app:layout_constraintTop_toTopOf="@id/post2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 
     </ScrollView>
