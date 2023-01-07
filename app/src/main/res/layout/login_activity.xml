@@ -48,7 +48,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/email_hint_login"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="LabelFor,MissingConstraints" />
     <!--Password Field -->
     <TextView
         android:id="@+id/password_hint_login"
@@ -72,7 +72,8 @@
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password_hint_login" />
+        app:layout_constraintTop_toBottomOf="@id/password_hint_login"
+        tools:ignore="LabelFor" />
 
     <!--Forgot your password ? -->
     <TextView

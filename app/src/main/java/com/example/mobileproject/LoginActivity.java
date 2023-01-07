@@ -19,6 +19,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     Intent toFeed(){
-        return new Intent(this, TestActivity.class);
+        return new Intent(this, MainfeedActivity.class);
     }
 }
