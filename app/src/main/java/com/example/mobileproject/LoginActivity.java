@@ -26,4 +26,12 @@ public class LoginActivity extends AppCompatActivity {
         Intent Sign = new Intent(this, SignupActivity.class);
         startActivity(Sign);
     }
+    public void onLoginBtnClicked(View view) {
+        Intent feed = toFeed();
+        startActivity(feed);
+    }
+
+    Intent toFeed(){
+        return new Intent(this, TestActivity.class);
+    }
 }
