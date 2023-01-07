@@ -21,4 +21,10 @@ public class LoginActivity extends AppCompatActivity {
     Intent toFeed(){
         return new Intent(this, MainfeedActivity.class);
     }
+
+    public void SignUp(View view) {
+        Intent Sign = new Intent(this, SignupActivity.class);
+        startActivity(Sign);
+        finish();
+    }
 }
