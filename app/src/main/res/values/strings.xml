@@ -5,8 +5,18 @@
     <string name="password_hint">Password</string>
     <string name="forgot_your_password">Forgot your password ?</string>
     <string name="login_button">Login</string>
-    <string name="you_don_t_have_an_account">You don\'t have an account ? Sign Up instead !</string>
+    <string name="you_don_t_have_an_account">You don\'t have an account? Sign Up</string>
     <string name="sign_up">Sign Up</string>
+
+    <string name="username_signup">Username</string>
+    <string name="full_name_signup">Full Name</string>
+    <string name="phone_number_signup">Phone Number</string>
+    <string name="password_hint_signup">Password</string>
+    <string name="confirm_password_signup">Confirm password</string>
+    <string name="sign_up_button_signup">Sign Up</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log In</string>
+    <string name="try_something_new_everyday">Share Your Real Moments !!</string>
+    <string name="get_started">Get Started</string>
     <string name="profile">Profile</string>
     <string name="jamal">Jamal</string>
     <string name="denji">denji</string>
