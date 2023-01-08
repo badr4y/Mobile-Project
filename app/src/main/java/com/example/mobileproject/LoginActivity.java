@@ -11,12 +11,19 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.profile_activity);
+        setContentView(R.layout.login_activity);
+    }
+    public void onLoginBtnClicked(View view) {
+        Intent feed = toFeed();
+        startActivity(feed);
+    }
+
+    Intent toFeed(){
+        return new Intent(this, MainfeedActivity.class);
     }
 
     public void SignUp(View view) {
         Intent Sign = new Intent(this, SignupActivity.class);
         startActivity(Sign);
-        finish();
     }
 }

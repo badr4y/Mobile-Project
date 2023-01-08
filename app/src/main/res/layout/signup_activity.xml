@@ -46,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fullname_hint_signup"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="LabelFor,MissingConstraints" />
 
     <TextView
         android:id="@+id/username_hint_signup"
