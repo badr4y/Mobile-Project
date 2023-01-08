@@ -32,4 +32,8 @@ Mauris in dui turpis. Ut id nunc sollicitudin, suscipit velit a, blandit nibh. N
 Morbi eu justo in mauris dictum posuere sit amet sit amet nisi. Suspendisse cursus gravida libero at condimentum. Praesent sollicitudin metus eu odio placerat, vitae consectetur libero dignissim. Nam non diam ut felis condimentum convallis vitae a ipsum. Curabitur ornare tempor tortor, sit amet venenatis nisl. Ut mollis dignissim purus, commodo accumsan libero vehicula sed. Nulla venenatis libero vel dui porta, nec pharetra turpis congue. Praesent tristique efficitur nibh id porta. Suspendisse rutrum leo porta accumsan tincidunt. Proin non pulvinar diam. Mauris non efficitur ipsum. In tincidunt mi nunc, ut tempus magna laoreet non.
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed non nisl lacus. Quisque eget purus tempus, dignissim ligula eu, auctor erat. Mauris porta velit diam, vitae feugiat lacus ornare ac. Phasellus nunc mauris, tristique iaculis placerat ut, finibus id lorem. Donec aliquet hendrerit viverra. Curabitur porttitor id lectus in porta. Nunc nibh mi, elementum sit amet ullamcorper sit amet, fringilla non nisi. Quisque et sem maximus, aliquam lorem nec, tempor erat. In suscipit lacus aliquam tincidunt viverra. In ac nisl metus.</string>
+    <string name="friends">Friends</string>
+    <string name="discover">Discover</string>
+    <string name="todo">TODO</string>
+    <string name="_3h_late">3h late</string>
 </resources>

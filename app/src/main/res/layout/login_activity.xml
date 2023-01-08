@@ -48,7 +48,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/email_hint_login"
-        tools:ignore="LabelFor,MissingConstraints" />
+        tools:ignore="LabelFor,MissingConstraints"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
     <!--Password Field -->
     <TextView
         android:id="@+id/password_hint_login"
@@ -73,7 +75,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/password_hint_login"
-        tools:ignore="LabelFor" />
+        tools:ignore="LabelFor"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
 
     <!--Forgot your password ? -->
     <TextView
@@ -102,8 +106,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/forgot_your_password_login"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85"
-        android:onClick="onLoginBtnClicked"/>
+        app:layout_constraintVertical_bias="0.85"/>
 
     <!--Don't have an account ? -->
     <TextView
@@ -117,7 +120,6 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/login_button"
         tools:ignore="MissingConstraints,OnClick"
-        android:clickable="true"
-        android:onClick="SignUp"/>
+        android:clickable="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

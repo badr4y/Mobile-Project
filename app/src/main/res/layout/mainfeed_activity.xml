@@ -20,18 +20,19 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true">
+            android:layout_centerHorizontal="true"
+            tools:ignore="UselessParent">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Friends "
+                android:text="@string/friends"
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" Discover"
+                android:text="@string/discover"
                 android:textColor="@color/white"
                 android:textStyle="bold"/>
         </LinearLayout>
@@ -56,14 +57,16 @@
                 android:src="@drawable/profile"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/todo" />
             <ImageView
                 android:id="@+id/self_post2"
                 android:layout_width="20dp"
                 android:layout_height="50dp"
                 android:src="@drawable/profile"
                 app:layout_constraintStart_toStartOf="@id/self_post"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/todo" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/profile_image"
@@ -89,24 +92,26 @@
                 app:layout_constraintTop_toTopOf="@id/profile_image"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:paddingLeft="15dp"
-                tools:ignore="MissingConstraints">
+                android:paddingStart="15dp"
+                tools:ignore="MissingConstraints,RtlSymmetry">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3h late"
+                android:text="@string/_3h_late"
                 android:textColor="@color/light_grey"
                 app:layout_constraintTop_toBottomOf="@id/username"
                 app:layout_constraintLeft_toRightOf="@id/profile_image"
-                android:paddingLeft="10dp"/>
+                android:paddingStart="10dp"
+                tools:ignore="RtlSymmetry" />
             <ImageView
                 android:id="@+id/post"
                 android:layout_width="400dp"
                 android:layout_height="400dp"
                 android:src="@drawable/profile"
                 app:layout_constraintTop_toBottomOf="@id/profile_image"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/todo" />
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -114,7 +119,8 @@
                 app:layout_constraintTop_toTopOf="@id/post"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/todo" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/profile_image2"
@@ -140,24 +146,26 @@
                 app:layout_constraintTop_toTopOf="@id/profile_image2"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:paddingLeft="15dp"
-                tools:ignore="MissingConstraints">
+                android:paddingStart="15dp"
+                tools:ignore="MissingConstraints,RtlSymmetry">
             </TextView>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3h late"
+                android:text="@string/_3h_late"
                 android:textColor="@color/light_grey"
                 app:layout_constraintTop_toBottomOf="@id/username2"
                 app:layout_constraintLeft_toRightOf="@id/profile_image2"
-                android:paddingLeft="10dp"/>
+                android:paddingStart="10dp"
+                tools:ignore="RtlSymmetry" />
             <ImageView
                 android:id="@+id/post2"
                 android:layout_width="400dp"
                 android:layout_height="400dp"
                 android:src="@drawable/profile"
                 app:layout_constraintTop_toBottomOf="@id/profile_image2"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/todo" />
             <ImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -165,7 +173,8 @@
                 app:layout_constraintTop_toTopOf="@id/post2"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:contentDescription="@string/todo" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
