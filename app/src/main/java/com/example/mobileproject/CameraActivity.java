@@ -30,6 +30,11 @@ public class CameraActivity extends AppCompatActivity {
             }
         });
 
+
         }
+    public void profileLink(View view) {
+        Intent Profile = new Intent(this, ProfileActivity.class);
+        startActivity(Profile);
+    }
     }
 
