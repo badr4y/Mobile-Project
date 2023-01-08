@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:textSize="40dp"
         android:textColor="#FFFFFF"
-        android:text="BeReal"
+        android:text="App Name"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
