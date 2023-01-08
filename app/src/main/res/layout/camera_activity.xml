@@ -3,19 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:background="#2c2c2c"
+    tools:ignore="ExtraText">
 
     <Button
         android:id="@+id/btnCam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2 min left to capture your picture and see what your friends are up to"
+        android:text="@string/_2_min_left_to_capture_your_picture_and_see_what_your_friends_are_up_to"
         android:textAllCaps="false"
-        android:textSize="20dp"
+        android:textSize="20sp"
+        android:textColor="#2c2c2c"
+        android:backgroundTint="#88CCFF"
         tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="318dp" />
-    "
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="356dp" />
+        tools:layout_editor_absoluteY="318dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
