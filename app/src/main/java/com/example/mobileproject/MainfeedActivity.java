@@ -11,4 +11,5 @@ public class MainfeedActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainfeed_activity);
     }
+
 }

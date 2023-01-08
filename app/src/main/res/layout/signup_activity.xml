@@ -31,7 +31,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="@id/fullname_field_signup"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.16"
+        app:layout_constraintVertical_bias="0.20"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -46,7 +46,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fullname_hint_signup"
-        tools:ignore="LabelFor,MissingConstraints" />
+        tools:ignore="LabelFor,MissingConstraints"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
 
     <TextView
         android:id="@+id/username_hint_signup"
@@ -71,7 +73,10 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/username_hint_signup" />
+        app:layout_constraintTop_toBottomOf="@id/username_hint_signup"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/email_hint_signup"
@@ -96,7 +101,10 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email_hint_signup" />
+        app:layout_constraintTop_toBottomOf="@id/email_hint_signup"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/phonenumber_hint_signup"
@@ -121,7 +129,10 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/phonenumber_hint_signup" />
+        app:layout_constraintTop_toBottomOf="@id/phonenumber_hint_signup"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/password_hint_signup"
@@ -146,47 +157,25 @@
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password_hint_signup" />
-
-    <TextView
-        android:id="@+id/confirmpassword_hint_singup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/confirm_password_signup"
-        android:textColor="@color/white"
-        android:textSize="15sp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="@+id/fullname_field_signup"
-        app:layout_constraintTop_toBottomOf="@+id/password_field_signup"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/confirmpassword_field_signup"
-        android:layout_width="318dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="8dp"
-        android:autofillHints="password"
-        android:background="@drawable/round_field"
-        android:inputType="textPassword"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/confirmpassword_hint_singup" />
+        app:layout_constraintTop_toBottomOf="@id/password_hint_signup"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/sign_up_button"
         android:layout_width="290dp"
         android:layout_height="60dp"
-        android:layout_marginTop="25dp"
-        android:text="@string/sign_up_button_signup"
         android:backgroundTint="#88ccff"
+        android:text="@string/sign_up_button_signup"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/confirmpassword_field_signup"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/password_field_signup"
+        android:layout_marginTop="50dp"
+        tools:ignore="MissingConstraints" />
     <TextView
         android:id="@+id/have_account"
         android:layout_width="match_parent"
