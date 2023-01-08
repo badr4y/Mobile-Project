@@ -80,7 +80,9 @@
                 android:src="@drawable/profile"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints" />
+                tools:ignore="MissingConstraints"
+                android:clickable="true"
+                android:onClick="activeCamera"/>
 
             <ImageView
                 android:id="@+id/self_post2"

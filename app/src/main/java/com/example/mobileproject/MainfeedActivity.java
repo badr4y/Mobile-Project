@@ -19,4 +19,9 @@ public class MainfeedActivity extends AppCompatActivity {
         startActivity(Profile);
     }
 
+    public void activeCamera(View view) {
+        Intent Camera = new Intent(this, CameraActivity.class);
+        startActivity(Camera);
+    }
+
 }
