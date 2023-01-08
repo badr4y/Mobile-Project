@@ -1,6 +1,8 @@
 package com.example.mobileproject;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +12,11 @@ public class MainfeedActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainfeed_activity);
+    }
+
+    public void profileLink(View view) {
+        Intent Profile = new Intent(this, ProfileActivity.class);
+        startActivity(Profile);
     }
 
 }
